@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- <div class="main-heading">
+        <p>SORTING VISUALIZER</p>
+    </div> -->
+
+    <header>
+        <p class="main-heading">SORTING VISUALIZER</p>
+        <nav>
+            <div class="algo-inputs">
+                <p>Size of array : </p>
+                <input type="range"  id="a_size" min="20" max="200" step="1" value="110">
+                <p>Speed : </p>
+                <input type="range"  id="a_speed" min="1" max="6" step="1">
+    
+                <!-- <button id="a_generate">Generate New Array</button> -->
+            </div>
+    
+            <div class="header-right">
+                <!-- <p class="main-heading">SORTING VISUALIZER</p> -->
+                <div class="algo-buttons">
+                    <button>Bubble</button>
+                    <button>Merge</button>
+                    <button>Selection</button>
+                    <button>Heap</button>
+                    
+                </div>
+                <div>
+                    <button id="a_generate">Generate New Array</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div id="array_container"> </div>
+    </section>
+    
+    <script src="script/mainscript.js"></script>
+    <script src="script/merge.js"></script>
+    <script src="script/bubble.js"></script>
+    <script src="script/selection.js"></script>
+    <script src="script/Heap.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,80 @@
+
+*{
+    font-family: cursive;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bolder;
+    /* background-color: cyan; */
+    
+}
+
+nav{
+    background-color: #e0e0d1;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding:  2%;
+    grid-gap:10%;
+}
+
+nav .algo-inputs{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 5%;
+}
+
+nav .algo-inputs #a_size{
+    padding: 5% 0%;
+}
+
+
+nav .algo-inputs #a_speed{
+    padding: 5% 0%;
+}
+
+#a_generate{
+    padding: 2%;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+#a_generate{
+    cursor: pointer;
+}
+
+.main-heading{
+    font-size: xxx-large;
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    background-color: #e0e0d1;
+}
+
+nav .header-right .algo-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 4px;
+    padding-top: 30px;
+}
+
+nav .header-right .algo-buttons button{
+    padding: 2%;
+}
+
+nav .header-right .algo-buttons button:hover{
+    cursor: pointer;
+}
+
+section{
+   margin: 0% 0%;
+   background-color: #001a33;
+   
+}
+
+#array_container{
+
+    display: flex;
+    height: 60vh;
+    align-items: flex-end;
+    /* background-color: whitesmoke; */
+}
+
